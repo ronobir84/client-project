@@ -3,36 +3,36 @@
         "_id": "1",
         "name": "Bluemont",
         "image": "https://i.ibb.co/8PK7pN8/Card-image-1.jpg",
-        " details": "Arlington, VA"
+        "text": "Arlington, VA"
     },
     {
         "_id": "2",
         "name": "Overlake",
         "image": " https://i.ibb.co/sqF0cmb/Card-image-2.jpg",
-        " details": "Redmond, WA"
+        "text": "Redmond, WA"
     },
     {
         "_id": "3",
         "name": "College Terrace",
         "image": "https://i.ibb.co/j4Tr085/card-image-3.jpg",
-        " details": "Palo Alto, CA"
+        "text": "Palo Alto, CA"
     },
     {
         "_id": "4",
         "name": "Inner Sunset",
         "image": "https://i.ibb.co/3hhYBb7/card-image-4.jpg",
-        " details": "San Francisco, CA"
+        "text": "San Francisco, CA"
     },
     {
         "_id": "5",
         "name": "Upper West Side",
         "image": "https://i.ibb.co/R6NLzZC/Card-image-5.jpg",
-        " details": "New York City, NY"
+        "text": "New York City, NY"
     },
     {
         "_id": "6",
         "name": "Marina District",
         "image": "https://i.ibb.co/6rrTBK2/Card-image-6.jpg",
-        " details": "San Francisco, CA"
+        "text": "San Francisco, CA"
     }
 ]

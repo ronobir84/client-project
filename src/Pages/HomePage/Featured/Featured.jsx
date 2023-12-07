@@ -2,7 +2,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
-
 // image input
 import img1 from "../../../assets/image/Featured-img1.jpg"
 import img2 from "../../../assets/image/Featured-img2.jpg"
@@ -104,6 +103,10 @@ const Featured = () => {
                 </SwiperSlide>
                 
             </Swiper>
+            <div className="mt-8">
+                <h2 className="text-2xl font-bold text-[#333] uppercase">Browse All</h2>
+                <h3></h3>
+            </div>
         </div>
     );
 };

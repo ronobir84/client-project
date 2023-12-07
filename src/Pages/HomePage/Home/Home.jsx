@@ -9,7 +9,7 @@ const Home = () => {
             <Banner></Banner>
             <Featured></Featured>
             <WhyChooseUs></WhyChooseUs>
-            <div className="">
+            <div className="mx-32">
                 <Card></Card>
             </div>
         </div>
