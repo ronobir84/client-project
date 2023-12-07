@@ -15,3 +15,7 @@ body {
 #back-img{
     background-image: url("./assets/image/back-img.jpg");
 }
+
+#ExploreBanner{
+    background-image: url("./assets/image/ExploreBanner.jpg");
+}
