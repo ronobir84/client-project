@@ -19,3 +19,7 @@ body {
 #ExploreBanner{
     background-image: url("./assets/image/ExploreBanner.jpg");
 }
+
+#clientImg1{
+    background-image: url("./assets/image/client-img1.jpg");
+}
