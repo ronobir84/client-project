@@ -14,20 +14,20 @@ const OurAgents = () => {
 
 
 
-            <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 mt-16 lg:space-y-0 space-y-[400px] lg:ml-0 ml-10">
+            <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 mt-16 lg:space-y-0 space-y-[460px] lg:ml-0 ml-10">
                 {/* first card client */}
                 <div className=" ">
                     <div className="">
-                        <img className="lg:w-[300px] lg:h-[400px] w-[330px] h-[430px]  rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg1} alt="" />
+                        <img className="lg:w-[300px]  w-[330px]    rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg1} alt="" />
                     </div>
-                    <div className=" relative top-[355px] bg-white w-[225px] ml-10 p-4 mx-auto rounded-md shadow-xl h-42  ">
+                    <div className=" relative top-[390px] bg-white w-[225px] ml-10 p-4 mx-auto rounded-md shadow-xl h-42  ">
 
                         <h2 className="text-2xl text-[#333] font-bold text-center">Scott Goodwin</h2>
                         <div className="flex gap-2 text-gray-500 items-center justify-center">
                             <FaPhoneAlt></FaPhoneAlt>
                             <h2 className="text-base"> (123) 456-7890</h2>
                         </div>
-                        
+
 
 
                     </div>
@@ -38,9 +38,9 @@ const OurAgents = () => {
                 {/* first second client */}
                 <div className=" ">
                     <div className="">
-                        <img className="lg:w-[300px] lg:h-[400px] w-[330px] h-[430px] rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg2} alt="" />
+                        <img className="lg:w-[300px] w-[330px] rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg2} alt="" />
                     </div>
-                    <div className=" relative top-[350px] bg-white w-[225px] ml-10 p-4 mx-auto rounded-md shadow-xl h-24 ">
+                    <div className=" relative top-[390px] bg-white w-[225px] ml-10 p-4 mx-auto rounded-md shadow-xl h-24 ">
 
                         <h2 className="text-2xl text-[#333] font-bold text-center">Alayna Becker</h2>
                         <div className="flex gap-2 text-gray-500 items-center justify-center">
@@ -56,9 +56,9 @@ const OurAgents = () => {
                 {/* first third client */}
                 <div className=" ">
                     <div className="">
-                        <img className="lg:w-[300px] lg:h-[400px] w-[330px] h-[430px] rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg3} alt="" />
+                        <img className="w-[300px] h-[450px]   rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg3} alt="" />
                     </div>
-                    <div className=" relative top-[350px] bg-white w-[225px] ml-10 p-4 mx-auto rounded-md shadow-xl h-24 ">
+                    <div className=" relative top-[390px] bg-white w-[225px] ml-10 p-4 mx-auto rounded-md shadow-xl h-24 ">
 
                         <h2 className="text-2xl text-[#333] font-bold text-center">Melvin Blackwell</h2>
                         <div className="flex gap-2 text-gray-500 items-center justify-center">
@@ -73,9 +73,9 @@ const OurAgents = () => {
                 {/* first four client */}
                 <div className=" ">
                     <div className="">
-                        <img className="lg:w-[300px] lg:h-[400px] w-[330px] h-[430px] rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg4} alt="" />
+                        <img className="lg:w-[300px] h-[450px] w-[330px]  rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg4} alt="" />
                     </div>
-                    <div className=" relative top-[350px] bg-white w-[225px] ml-10 p-4 mx-auto rounded-md shadow-xl h-24 ">
+                    <div className=" relative top-[390px] bg-white w-[225px] ml-10 p-4 mx-auto rounded-md shadow-xl h-24 ">
 
                         <h2 className="text-2xl text-[#333] font-bold text-center">Erika Tillman</h2>
                         <div className="flex gap-2 text-gray-500 items-center justify-center">

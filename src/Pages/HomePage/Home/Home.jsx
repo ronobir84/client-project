@@ -19,7 +19,7 @@ const Home = () => {
             <div className="lg:mx-32">
                 <OurAgents></OurAgents>
             </div>
-            <div className="lg:mx-32 mt-96">
+            <div className="lg:mx-32 mt-[450px]">
                 <Membership></Membership>
             </div>
         </div>

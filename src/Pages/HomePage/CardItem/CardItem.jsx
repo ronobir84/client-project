@@ -2,7 +2,7 @@
 const CardItem = ({ card }) => {
     const { id, name, image, text } = card;
     return (
-        <div className="lg:w-[460px]  lg:h-[400px]  rounded-xl shadow-md transition lg:p-0 lg:mx-0 mx-6 ease-in-out delay-150  lg:hover:-translate-y-1 lg:hover:scale-105 cursor-pointer  duration-300">
+        <div  className="lg:w-[460px]  lg:h-[400px]  rounded-xl shadow-md transition lg:p-0 lg:mx-0 mx-6 ease-in-out delay-150  lg:hover:-translate-y-1 lg:hover:scale-105 cursor-pointer  duration-300">
             <div className="overflow-hidden">
                 <img className="rounded" src={image} alt="" />
             </div>
