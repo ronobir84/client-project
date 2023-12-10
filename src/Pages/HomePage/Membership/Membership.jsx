@@ -4,7 +4,7 @@ import cardImg3 from "../../../assets/image/last-card-3.svg"
 const Membership = () => {
     return (
         <div className="">
-            <div className="">
+            <div className="lg:ml-0 ml-14">
                 <h2 className=" text-2xl text-[#333] font-bold">SEE ALL AGENTS</h2>
             </div>
             <div className="text-center mt-20">
@@ -18,11 +18,11 @@ const Membership = () => {
             {/* lest card section */}
 
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-10 mt-16">
+            <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-10 lg:m-0 m-4 mt-16">
                 
                 {/* first card section */}
 
-                <div className="w-[420px] h-[560px] hover:border-4 hover:border-black rounded-md ">
+                <div className="lg:w-[420px] h-[560px] hover:border-4 hover:border-black rounded-md ">
                     <div className="transition ease-in-out delay-200  hover:-translate-y-9 hover:scale-100 cursor-pointer  duration-500 ">
                         <div>
                             
@@ -46,7 +46,7 @@ const Membership = () => {
 
                 {/* first second section */}
 
-                <div className="w-[420px] h-[560px] hover:border-4 hover:border-black  rounded-md shadow-2xl">
+                <div className="lg:w-[420px] h-[560px] hover:border-4 hover:border-black  rounded-md shadow-2xl">
                     <div className="transition ease-in-out delay-200  hover:-translate-y-9 hover:scale-100 cursor-pointer  duration-500 ">
                         <div>
                              
@@ -73,7 +73,7 @@ const Membership = () => {
 
                 {/* first third section */}
 
-                <div className="w-[420px] h-[560px] hover:border-4 hover:border-black rounded-md">
+                <div className="lg:w-[420px] h-[560px] hover:border-4 hover:border-black rounded-md">
                     <div className="transition ease-in-out delay-200  hover:-translate-y-9 hover:scale-100 cursor-pointer  duration-500 ">
                         <div>
                             <img className="w-36 mx-auto pt-16" src={cardImg3} alt="" />

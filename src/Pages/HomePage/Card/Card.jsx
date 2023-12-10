@@ -11,8 +11,8 @@ const Card = () => {
     },[])
     return (
         <div className="lg:mt-56 mt-64">
-            <div className="">
-                <h2 className="text-3xl tex-[#333] font-bold text-black">Explore Our Neighborhoods</h2>
+            <div className="lg:ml-0 ml-6">
+                <h2 className="lg:text-3xl text-2xl tex-[#333] font-bold text-black">Explore Our Neighborhoods</h2>
                 <p className="text-xl text-gray-700 font-medium mt-2">Browse our comprehensive neighborhood listings</p>
             </div>
 

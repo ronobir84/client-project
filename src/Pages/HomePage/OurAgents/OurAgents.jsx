@@ -6,19 +6,19 @@ import { FaPhoneAlt } from "react-icons/fa";
 const OurAgents = () => {
     return (
         <div className="mt-20">
-            <div className="ml-2">
-                <h2 className="text-4xl text-[#333] font-bold">Our Featured Agents</h2>
+            <div className="lg:ml-2 ml-6">
+                <h2 className="lg:text-4xl text-3xl  text-[#333] font-bold">Our Featured Agents</h2>
                 <p className="text-xl text-gray-700 font-medium mt-3">Meet the best real estate agents</p>
             </div>
 
 
 
 
-            <div className="lg:flex flex-row mt-16">
+            <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 mt-16 lg:space-y-0 space-y-[400px] lg:ml-0 ml-10">
                 {/* first card client */}
-                <div className="w-96 ">
+                <div className=" ">
                     <div className="">
-                        <img className="w-[300px] h-[400px]   rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg1} alt="" />
+                        <img className="lg:w-[300px] lg:h-[400px] w-[330px] h-[430px]  rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg1} alt="" />
                     </div>
                     <div className=" relative top-[355px] bg-white w-[225px] ml-10 p-4 mx-auto rounded-md shadow-xl h-42  ">
 
@@ -36,9 +36,9 @@ const OurAgents = () => {
 
 
                 {/* first second client */}
-                <div className="w-96 ">
+                <div className=" ">
                     <div className="">
-                        <img className="w-[300px] h-[400px]  rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg2} alt="" />
+                        <img className="lg:w-[300px] lg:h-[400px] w-[330px] h-[430px] rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg2} alt="" />
                     </div>
                     <div className=" relative top-[350px] bg-white w-[225px] ml-10 p-4 mx-auto rounded-md shadow-xl h-24 ">
 
@@ -54,9 +54,9 @@ const OurAgents = () => {
 
 
                 {/* first third client */}
-                <div className="w-96 ">
+                <div className=" ">
                     <div className="">
-                        <img className="w-[300px] h-[400px] rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg3} alt="" />
+                        <img className="lg:w-[300px] lg:h-[400px] w-[330px] h-[430px] rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg3} alt="" />
                     </div>
                     <div className=" relative top-[350px] bg-white w-[225px] ml-10 p-4 mx-auto rounded-md shadow-xl h-24 ">
 
@@ -71,9 +71,9 @@ const OurAgents = () => {
 
 
                 {/* first four client */}
-                <div className="w-96 ">
+                <div className=" ">
                     <div className="">
-                        <img className="w-[300px] h-[400px] rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg4} alt="" />
+                        <img className="lg:w-[300px] lg:h-[400px] w-[330px] h-[430px] rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg4} alt="" />
                     </div>
                     <div className=" relative top-[350px] bg-white w-[225px] ml-10 p-4 mx-auto rounded-md shadow-xl h-24 ">
 
