@@ -1,8 +1,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectCoverflow, Pagination } from 'swiper/modules';
+
 import 'swiper/css';
+import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
-// image input
+
 import img1 from "../../../assets/image/Featured-img1.jpg"
 import img2 from "../../../assets/image/Featured-img2.jpg"
 import img3 from "../../../assets/image/Featured-img3.jpg"
@@ -10,30 +12,31 @@ import img4 from "../../../assets/image/Featured-img4.jpg"
 import img5 from "../../../assets/image/Featured-img5.jpg"
 import img6 from "../../../assets/image/Featured-img2.jpg"
 import img7 from "../../../assets/image/Featured-img1.jpg"
-import Featured2 from './Featured2';
 
-const Featured = () => {
+const Featured2 = () => {
     return (
-        <div className='mt-20 lg:ml-32 mb-20 ml-6'>
-            <div className='mb-12 '>
-                <h2 className='lg:text-4xl text-4xl  text-[#333] font-bold'>Featured Properties</h2>
-                <p className='text-xl text-gray-700 mt-3'>Browse our latest hot offers</p>
-            </div>
-            <div className='hidden lg:block'>
+        <div>
+            <div className='lg:hidden'>
                 <Swiper
-                    slidesPerView={3}
-                    spaceBetween={30}
-
-                    pagination={{
-                        clickable: true,
+                    effect={'coverflow'}
+                    grabCursor={true}
+                    centeredSlides={true}
+                    slidesPerView={'auto'}
+                    coverflowEffect={{
+                        rotate: 50,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows: true,
                     }}
-                    modules={[Pagination]}
+                    pagination={true}
+                    modules={[EffectCoverflow, Pagination]}
                     className="mySwiper"
                 >
                     <SwiperSlide>
                         <div className='overflow-hidden '>
 
-                            <img className='w-[95%]  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 relative rounded cursor-pointer' src={img1} alt="" />
+                            <img className='  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 relative rounded cursor-pointer' src={img1} alt="" />
 
                             <div className='absolute bottom-4 ml-4 '>
                                 <h3 className='text-xl font-semibold text-white'>Chic Apartment in Downtown</h3>
@@ -42,10 +45,11 @@ const Featured = () => {
                             </div>
 
                         </div>
+
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='overflow-hidden'>
-                            <img className='w-11/12  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 relative rounded cursor-pointer' src={img2} alt="" />
+                            <img className=' transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 relative rounded cursor-pointer' src={img2} alt="" />
                             <div className='absolute bottom-4 ml-4 '>
                                 <h3 className='text-xl font-semibold text-white'>Chic Apartment in Downtown</h3>
                                 <h1 className='text-3xl font-extrabold text-white'>$890,000</h1>
@@ -55,7 +59,7 @@ const Featured = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='overflow-hidden'>
-                            <img className='w-[87%] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 relative rounded cursor-pointer' src={img3} alt="" />
+                            <img className=' transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 relative rounded cursor-pointer' src={img3} alt="" />
                             <div className='absolute bottom-4 ml-4 '>
                                 <h3 className='text-xl font-semibold text-white'>Chic Apartment in Downtown</h3>
                                 <h1 className='text-3xl font-extrabold text-white'>$890,000</h1>
@@ -65,7 +69,7 @@ const Featured = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='overflow-hidden'>
-                            <img className='w-[98%] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 relative rounded cursor-pointer' src={img4} alt="" />
+                            <img className=' transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 relative rounded cursor-pointer' src={img4} alt="" />
                             <div className='absolute bottom-4 ml-4 '>
                                 <h3 className='text-xl font-semibold text-white'>Chic Apartment in Downtown</h3>
                                 <h1 className='text-3xl font-extrabold text-white'>$890,000</h1>
@@ -75,7 +79,7 @@ const Featured = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='overflow-hidden'>
-                            <img className='w-[98%] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 relative rounded cursor-pointer' src={img5} alt="" />
+                            <img className=' transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 relative rounded cursor-pointer' src={img5} alt="" />
                             <div className='absolute bottom-4 ml-4 '>
                                 <h3 className='text-xl font-semibold text-white'>Chic Apartment in Downtown</h3>
                                 <h1 className='text-3xl font-extrabold text-white'>$890,000</h1>
@@ -85,7 +89,7 @@ const Featured = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='overflow-hidden'>
-                            <img className='w-[94%] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 relative rounded cursor-pointer' src={img6} alt="" />
+                            <img className=' transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 relative rounded cursor-pointer' src={img6} alt="" />
                             <div className='absolute bottom-4 ml-4 '>
                                 <h3 className='text-xl font-semibold text-white'>Chic Apartment in Downtown</h3>
                                 <h1 className='text-3xl font-extrabold text-white'>$890,000</h1>
@@ -103,21 +107,12 @@ const Featured = () => {
                             </div>
                         </div>
                     </SwiperSlide>
+                    
 
                 </Swiper>
-
-            </div>
-
-
-            <div>
-                <Featured2></Featured2>
-            </div>
-            <div className="mt-8">
-                <h2 className="text-2xl font-bold text-[#333] uppercase">Browse All</h2>
-                <h3></h3>
             </div>
         </div>
     );
 };
 
-export default Featured;
+export default Featured2;

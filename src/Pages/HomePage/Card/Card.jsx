@@ -7,8 +7,8 @@ const Card = () => {
     useEffect(() => {
         fetch('data.json')
             .then(response => response.json())
-        .then(data => setCard(data))
-    },[])
+            .then(data => setCard(data))
+    }, [])
     return (
         <div className="lg:mt-56 mt-64">
             <div className="lg:ml-0 ml-6">

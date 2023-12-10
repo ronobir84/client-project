@@ -7,7 +7,7 @@ const Membership = () => {
             <div className="lg:ml-0 ml-14">
                 <h2 className=" text-2xl text-[#333] font-bold">SEE ALL AGENTS</h2>
             </div>
-            <div className="text-center mt-20">
+            <div className="text-center mt-20 mb-16">
                 <h1 className="text-4xl text-[#333] font-bold">Membership Plans</h1>
                 <h2 className="text-xl text-gray-700 font-medium mt-2">Choose the plan that suits you best</h2>
             </div>
@@ -18,7 +18,7 @@ const Membership = () => {
             {/* lest card section */}
 
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-10 lg:m-0 m-4 mt-16">
+            <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-10 lg:m-0 m-6 ">
                 
                 {/* first card section */}
 
