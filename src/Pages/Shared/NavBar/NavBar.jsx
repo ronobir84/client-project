@@ -3,10 +3,11 @@ import { FaUserAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const NavBar = () => {
     const navLinks = <>
-        <li><Link className="text-lg text-black  font-semibold">Home</Link></li>
-        <li><Link className="text-lg text-black  font-semibold">Dashboard</Link></li>
-        <li><Link className="text-lg  text-black font-semibold">Apartment</Link></li>
-        <li><Link className="text-lg  text-black font-semibold">Contact</Link></li>
+        <li><Link className="text-lg text-[#333] uppercase  font-semibold border-black hover:border-b-2">Home</Link></li>
+        <li><Link className="text-lg text-[#333] uppercase  font-semibold border-black hover:border-b-2">Properties</Link></li>
+        <li><Link className="text-lg  text-[#333] uppercase font-semibold border-black hover:border-b-2">Agents</Link></li>
+        <li><Link className="text-lg  text-[#333] uppercase font-semibold border-black hover:border-b-2">Blog</Link></li>
+        <li><Link to="/contact" className="text-lg  text-[#333] uppercase font-semibold border-black hover:border-b-2">Contact Us</Link></li>
     
     </>
     return (
@@ -30,7 +31,7 @@ const NavBar = () => {
                 </div>
                 
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="flex gap-12 ml-4">
+                    <ul className="flex gap-12 ml-6">
                          {navLinks}
                     </ul>
                 </div>

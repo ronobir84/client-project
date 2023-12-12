@@ -23,3 +23,19 @@ body {
 #clientImg1{
     background-image: url("./assets/image/client-img1.jpg");
 }
+
+#first-client1{
+    background-image: url("./assets//image/client-img1.jpg");
+    
+}
+#first-client2{
+    background-image: url("./assets/image/client-img2.jpg");
+}
+
+#first-client3{
+    background-image: url("./assets/image/client-img3.jpg");
+}
+
+#first-client4{
+    background-image: url("./assets/image/client-img4.jpg");
+}

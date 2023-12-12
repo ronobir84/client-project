@@ -14,33 +14,29 @@ const OurAgents = () => {
 
 
 
-            <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 mt-16 lg:space-y-0 space-y-[460px] lg:ml-0 ml-10">
+            <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-8 mt-16    lg:ml-0 ml-10">
                 {/* first card client */}
-                <div className=" ">
-                    <div className="">
-                        <img className="lg:w-[300px]  w-[330px]    rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg1} alt="" />
+
+
+                <div className="  overflow-hidden">
+                    <div className="  w-[320px] rounded-md  bg-cover bg-center h-[405px] object-cover transition ease-linear delay-200  hover:-translate-y-1 hover:scale-105  duration-700 relative  cursor-pointer" id="first-client1" >
                     </div>
-                    <div className=" relative top-[390px] bg-white w-[225px] ml-10 p-4 mx-auto rounded-md shadow-xl h-42  ">
+                    <div className=" relative bottom-10 bg-white w-[225px] ml-12  p-4 mx-auto rounded-md shadow-xl h-24 ">
 
                         <h2 className="text-2xl text-[#333] font-bold text-center">Scott Goodwin</h2>
                         <div className="flex gap-2 text-gray-500 items-center justify-center">
                             <FaPhoneAlt></FaPhoneAlt>
-                            <h2 className="text-base"> (123) 456-7890</h2>
+                            <h2 className="text-base">   (123) 456-7890</h2>
                         </div>
-
-
 
                     </div>
                 </div>
 
-
-
-                {/* first second client */}
-                <div className=" ">
-                    <div className="">
-                        <img className="lg:w-[300px] w-[330px] rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg2} alt="" />
+                {/* second card client */}
+                <div className="  overflow-hidden">
+                    <div className="  w-[320px] rounded-md  bg-cover bg-center h-[405px] object-cover transition ease-linear delay-200  hover:-translate-y-1 hover:scale-105  duration-700 relative  cursor-pointer" id="first-client2" >
                     </div>
-                    <div className=" relative top-[390px] bg-white w-[225px] ml-10 p-4 mx-auto rounded-md shadow-xl h-24 ">
+                    <div className=" relative bottom-10 bg-white w-[225px]  ml-12  p-4 mx-auto rounded-md shadow-xl h-24 ">
 
                         <h2 className="text-2xl text-[#333] font-bold text-center">Alayna Becker</h2>
                         <div className="flex gap-2 text-gray-500 items-center justify-center">
@@ -53,12 +49,11 @@ const OurAgents = () => {
 
 
 
-                {/* first third client */}
-                <div className=" ">
-                    <div className="">
-                        <img className="w-[300px] h-[450px]   rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg3} alt="" />
+                {/*   third card client */}
+                <div className="  overflow-hidden">
+                    <div className="  w-[320px] rounded-md  bg-cover bg-center h-[405px] object-cover transition ease-linear delay-200  hover:-translate-y-1 hover:scale-105  duration-700 relative  cursor-pointer" id="first-client3" >
                     </div>
-                    <div className=" relative top-[390px] bg-white w-[225px] ml-10 p-4 mx-auto rounded-md shadow-xl h-24 ">
+                    <div className=" relative bottom-10  bg-white w-[225px] ml-12   p-4 mx-auto rounded-md shadow-xl h-24 ">
 
                         <h2 className="text-2xl text-[#333] font-bold text-center">Melvin Blackwell</h2>
                         <div className="flex gap-2 text-gray-500 items-center justify-center">
@@ -70,12 +65,14 @@ const OurAgents = () => {
                 </div>
 
 
-                {/* first four client */}
-                <div className=" ">
-                    <div className="">
-                        <img className="lg:w-[300px] h-[450px] w-[330px]  rounded-lg shadow-md absolute transition ease-in-out delay-150  hover:-translate-y-5 hover:scale-100 cursor-pointer  duration-300" src={clientImg4} alt="" />
+
+
+                {/*   four card client */}
+
+                <div className="  overflow-hidden">
+                    <div className="  w-[320px] rounded-md  bg-cover bg-center h-[405px] object-cover transition ease-linear delay-200  hover:-translate-y-1 hover:scale-105  duration-700 relative  cursor-pointer" id="first-client4" >
                     </div>
-                    <div className=" relative top-[390px] bg-white w-[225px] ml-10 p-4 mx-auto rounded-md shadow-xl h-24 ">
+                    <div className=" relative bottom-10 bg-white w-[225px] ml-12  p-4 mx-auto rounded-md shadow-xl h-24 ">
 
                         <h2 className="text-2xl text-[#333] font-bold text-center">Erika Tillman</h2>
                         <div className="flex gap-2 text-gray-500 items-center justify-center">
@@ -85,7 +82,6 @@ const OurAgents = () => {
 
                     </div>
                 </div>
-
             </div>
         </div>
     );
