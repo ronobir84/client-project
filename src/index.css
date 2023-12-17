@@ -43,3 +43,6 @@ body {
 #MainBanner{
     background-image: url("./assets/image/contact-bg.jpg");
 }
+#AgentsBanner{
+    background-image: url("./assets/image/agents-hero.jpg");
+}

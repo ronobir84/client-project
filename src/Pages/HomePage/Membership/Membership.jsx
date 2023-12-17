@@ -22,7 +22,7 @@ const Membership = () => {
                 
                 {/* first card section */}
 
-                <div className="lg:w-[420px] h-[560px] hover:border-2 hover:border-black rounded-md ">
+                <div className="lg:w-[420px] h-[560px] hover:border-4 hover:border-black rounded-md ">
                     <div className="transition ease-in-out delay-200  hover:-translate-y-9 hover:scale-100 cursor-pointer  duration-500 ">
                         <div>
                             

@@ -2,10 +2,10 @@
 const MainBanner = () => {
     return (
         <div>
-            <div className="h-[650px]  relative " id="MainBanner">
-                <div className="flex rounded-md shadow-md px-24 justify-between bg-white absolute top-80 left-[130px]  h-[430px]  w-[85%] items-center ">
+            <div className="lg:h-[650px] h-[100vh]   relative " id="MainBanner">
+                <div className="lg:flex flex-row rounded-md shadow-md lg:px-24 justify-between bg-white absolute lg:top-80 top-52 lg:left-[130px] left-7  lg:h-[430px] h-[90%] lg:pt-0 pt-14   lg:p-0 p-4 text-center   w-[85%] items-center ">
                     <div className="">
-                        <div className="absolute top-2 pt-10">
+                        <div className="absolute top-2 lg:pl-0 pl-11 pt-6  lg:pt-10">
                             <h1 className="text-4xl font-extrabold text-[#333] ">Our Offices</h1>
                         </div>
                         <div className="pt-10 ">

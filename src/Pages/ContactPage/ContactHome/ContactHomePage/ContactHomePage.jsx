@@ -5,7 +5,7 @@ import MessageOurLocations from "../MessageOurLocations/MessageOurLocations";
 const ContactHomePage = () => {
     return (
         <div>
-            <div className="lg:mx-[130px] lg:pt-52">
+            <div className="lg:mx-[130px] pt-52">
                 <ContactBanner></ContactBanner>
             </div>
             <div className="mt-20">

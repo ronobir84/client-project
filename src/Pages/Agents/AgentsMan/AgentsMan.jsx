@@ -1,19 +1,10 @@
-// import clientImg1 from "../../../assets/image/client-img1.jpg"
-// import clientImg2 from "../../../assets/image/client-img2.jpg"
-// import clientImg3 from "../../../assets/image/client-img3.jpg"
-// import clientImg4 from "../../../assets/image/client-img4.jpg"
 import { FaPhoneAlt } from "react-icons/fa";
-const OurAgents = () => {
+import OurAgents from "../../HomePage/OurAgents/OurAgents";
+
+ 
+const AgentsMan = () => {
     return (
-        <div className="mt-20">
-            <div className="lg:ml-2 ml-6">
-                <h2 className="lg:text-4xl text-3xl  text-[#333] font-bold">Our Featured Agents</h2>
-                <p className="text-xl text-gray-700 font-medium mt-3">Meet the best real estate agents</p>
-            </div>
-
-
-
-
+        <div className="">
             <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-8 mt-16    lg:ml-0 ml-10">
                 {/* first card client */}
 
@@ -87,4 +78,4 @@ const OurAgents = () => {
     );
 };
 
-export default OurAgents;
+export default AgentsMan;

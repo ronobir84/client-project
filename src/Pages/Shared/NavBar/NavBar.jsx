@@ -2,20 +2,21 @@
 import { FaUserAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const NavBar = () => {
+    
     const navLinks = <>
         <li><Link className="text-lg text-[#333] uppercase  font-semibold border-black hover:border-b-2">Home</Link></li>
         <li><Link className="text-lg text-[#333] uppercase  font-semibold border-black hover:border-b-2">Properties</Link></li>
-        <li><Link className="text-lg  text-[#333] uppercase font-semibold border-black hover:border-b-2">Agents</Link></li>
+        <li><Link to="/agents" className="text-lg  text-[#333] uppercase font-semibold border-black hover:border-b-2">Agents</Link></li>
         <li><Link className="text-lg  text-[#333] uppercase font-semibold border-black hover:border-b-2">Blog</Link></li>
         <li><Link to="/contact" className="text-lg  text-[#333] uppercase font-semibold border-black hover:border-b-2">Contact Us</Link></li>
     
     </>
     return (
         <div>
-            <div className="navbar  w-full  fixed z-10   bg-white">
+            <div className="navbar  w-full  fixed z-10  shadow-lg  bg-white">
                 <div className="w-1/2 justify-start">
                     <div className="dropdown">
-                        <div tabIndex={0} role="button" className=" lg:hidden ">
+                        <div tabIndex={0} role="button" className=" lg:hidden">
                             <button className="">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-10 h-10  stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                             </button>
@@ -24,8 +25,7 @@ const NavBar = () => {
                             {navLinks}
                         </ul>
                     </div>
-                    {/* mn */}
-                    <div className="lg:ml-28 ml-[82px]">
+                     <div className="lg:ml-28 ml-[82px]">
                         <Link to="/"><h1 className="text-3xl font-bold uppercase text-black">resideo</h1></Link>
                     </div>
                 </div>
